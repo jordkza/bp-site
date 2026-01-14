@@ -3,7 +3,7 @@
   --c-blue:#147A8F;--c-hover:#0D4C59;--c-grey:#6b7280;--c-burgundy:#520C0C;
   --w:1200px;--w-cards:1200px;--w-card:400px;--w-heroimg:520px;--w-form:700px;--w-quote:800px;
   --r-sm:5px;--r:15px;--r-lg:20px;--r-md:14px;
-  --gap:48px;--gap-cards:48px;
+  --gap:48px;--gap-cards:50px;
   --pad:20px;--pad-cta:50px;--pad-form:32px;
   --shadow:0 1px 2px rgba(0,0,0,.10),0 6px 18px rgba(0,0,0,.06);
   --shadow-soft:0 1px 2px rgba(0,0,0,.06),0 6px 18px rgba(0,0,0,.06);
@@ -81,8 +81,8 @@ input:focus,textarea:focus{outline:0;border-color:#7a1e1e;box-shadow:0 0 0 3px r
 .form-success{font-size:1.25rem;text-align:center}
 
 .quote{display:flex;flex-direction:column;justify-content:center;align-items:center;background:var(--c-muted);padding:100px;margin:0}
-.quote-text{font-size:2rem;font-weight:300;max-width:var(--w-quote);margin:0 auto}
-.quote-attrib{color:var(--c-burgundy);font-size:1rem;align-self:center;font-weight:700;padding-left:300px}
+.quote-text{font-size:1.75rem;font-weight:300;max-width:var(--w-quote);margin:0 auto}
+.quote-attrib{color:var(--c-burgundy);font-size:1.25rem;align-self:center;font-weight:700;padding-left:300px}
 
 .cta-section{display:flex;justify-content:center;padding-bottom:100px}
 .cta-block{display:flex;flex-basis:700px;background:var(--c-blue);color:#fff;border-radius:var(--r);margin-top:100px;padding:var(--pad-cta);gap:50px;box-shadow:var(--shadow)}

@@ -1,9 +1,9 @@
 :root{
   --c-cyan:#D4EAED;--c-light:#2A2828;--c-muted:#F7F2E4;--c-muted2:#3E3C3C;
   --c-blue:#147A8F;--c-hover:#0D4C59;--c-grey:#6b7280;--c-burgundy:#520C0C;
-  --w:1200px;--w-cards:900px;--w-card:400px;--w-heroimg:520px;--w-form:700px;--w-quote:800px;
+  --w:1200px;--w-cards:1200px;--w-card:400px;--w-heroimg:520px;--w-form:700px;--w-quote:800px;
   --r-sm:5px;--r:15px;--r-lg:20px;--r-md:14px;
-  --gap:48px;--gap-cards:32px;
+  --gap:48px;--gap-cards:48px;
   --pad:20px;--pad-cta:50px;--pad-form:32px;
   --shadow:0 1px 2px rgba(0,0,0,.10),0 6px 18px rgba(0,0,0,.06);
   --shadow-soft:0 1px 2px rgba(0,0,0,.06),0 6px 18px rgba(0,0,0,.06);
@@ -48,12 +48,12 @@ h2{font-size:2rem;color:var(--c-light);font-weight:900}
 .intro-right{justify-self:end;display:flex;align-items:center}
 .intro-right img{transform:translateX(-50px);display:block}
 
-.info-boxes{display:flex;flex-wrap:wrap;gap:var(--gap-cards);padding:20px var(--pad) 100px;max-width:var(--w-cards);margin:0 auto;justify-content:center;align-content:center}
-.box-with-text{flex:1 1 var(--w-card);max-width:var(--w-card);display:flex;flex-direction:column;align-items:center}
+.info-boxes{display:flex;gap:var(--gap-cards);padding:20px var(--pad) 100px;max-width:var(--w-cards);margin:0 auto;justify-content:center;align-content:center}
+.box-with-text{max-width:var(--w-card);display:flex;flex-direction:column;align-items:center}
 .box-head{text-align:center;font-size:1.5rem;width:100%}
 .box-with-text h3::after{content:"";display:block;width:20%;height:2px;background:var(--c-burgundy);margin:15px auto 0}
 .box img{max-width:75%;border-radius:var(--r)}
-.box-with-text p{font-size:1.25rem;max-width:300px;text-align:center;margin-top:10px}
+.box-with-text p{font-size:1.25rem;max-width:400px;text-align:center;margin-top:10px}
 .box{display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%;aspect-ratio:1/1.25;background:var(--c-muted);border-radius:var(--r);box-shadow:var(--shadow-soft);padding-bottom:40px}
 
 .star-list{transform:translateX(-10px);font-size:1.25rem;list-style:none;padding-top:10px;margin-left:-10px}
